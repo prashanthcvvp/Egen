@@ -1,0 +1,5 @@
+com\coding\controller\UserManagementController.class
+com\dao\UserManagement.class
+com\coding\controller\AppConfig.class
+com\coding\CodingTastApplication.class
+com\dao\UserDetails.class

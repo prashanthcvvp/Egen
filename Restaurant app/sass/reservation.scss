@@ -1,0 +1,70 @@
+@import "variables/app-variables";
+.reservation{
+    background-image: url('../img/reservation/reservation_background.jpeg');
+    background-position: 10% 30%;
+}
+.reservation-option{
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.btn-reserve{
+    color: green;
+    border-radius: 30px;
+
+    &:hover{
+        color: green;
+        opacity: 0.8;
+    }
+}
+
+
+.new-reservation{
+    margin: 5%;
+}
+
+.btn-submit{
+    font-size: 18px;
+    width: 40%;
+    margin-left: 5%;
+    background: #006600;
+    text-shadow: none;
+    color: white;
+    
+    &:hover{
+        background: #006600;
+        text-shadow: none;
+        color: white;
+        opacity: 0.8;
+    }
+}
+
+.btn-cancel{
+    font-size: 18px;
+    width: 40%;
+    margin-left: 5%;
+    background: #990000;
+    text-shadow: none;
+    color: white;
+    
+    &:hover{
+        background: #990000;
+        text-shadow: none;
+        color: white;
+        opacity: 0.8;
+    }
+}
+@media screen and (max-width:$mobile-max-screen-width){
+    .btn-reserve{
+        display: block;
+    }
+    .new-reservation{
+        margin: 0%;
+    }
+    .btn-submit{
+        display: block;
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 5%;
+    }
+}

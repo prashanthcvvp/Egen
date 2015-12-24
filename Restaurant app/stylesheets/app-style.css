@@ -1,0 +1,59 @@
+/* line 4, ../sass/app-style.scss */
+.welcome-carousel {
+  align-content: center;
+  width: 100%;
+  height: 520px;
+}
+
+/* line 9, ../sass/app-style.scss */
+.hotel-carousel {
+  display: block;
+}
+
+/* line 14, ../sass/app-style.scss */
+.navbar-hotel {
+  background: #990000;
+  color: white;
+}
+
+/* line 19, ../sass/app-style.scss */
+.nav-link {
+  color: white;
+}
+
+/* line 23, ../sass/app-style.scss */
+.mobile-view-nav-options, .mobile-view-nav {
+  display: none;
+}
+
+@media screen and (max-width: 770px) {
+  /* line 30, ../sass/app-style.scss */
+  .hotel-carousel, .desktop-view-nav {
+    display: none;
+  }
+
+  /* line 34, ../sass/app-style.scss */
+  .mobile-view-nav {
+    background: #990000;
+    display: block;
+    padding: 20px;
+  }
+
+  /* line 40, ../sass/app-style.scss */
+  .mobile-view-nav-options {
+    display: block;
+  }
+
+  /* line 43, ../sass/app-style.scss */
+  .brand-name-mobile {
+    width: 90%;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  /* line 49, ../sass/app-style.scss */
+  .mobile-btn {
+    color: white;
+  }
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurant</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.5.0/css/bootstrap-datepicker3.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+    
+    <link rel="stylesheet" href="stylesheets/app-style.css"/>
+    <link rel="stylesheet" href="stylesheets/reservation.css"/>
+    
+    
+</head>
+<body ng-app="Restaurant-app">
+    <div class='desktop-view-nav'>
+        <nav class="navbar navbar-hotel">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>-->
+              <label class="navbar-brand brand-name" href="#/">Restaurant</label>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#/" class='nav-link'>Home <span class="sr-only">(current)</span></a></li>
+                <li><a href="#/" class='nav-link'>Gallery</a></li>
+                <li><a href="#/reserve" class='nav-link'>Reservation</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+    
+    <div class='mobile-view-nav'>
+        <a href="#/" class="mobile-btn">Back</a>
+        <label class="brand-name-mobile">Restaurant</label>
+    </div>
+    
+    
+    <div data-ng-view></div>
+    
+
+
+
+    
+    <footer class="desktop-view-nav  navbar-hotel panel-footer">
+        asdfasdf
+    </footer>
+
+    <script type="application/javascript" src="https://code.angularjs.org/1.4.8/angular.js"></script>
+    <script type="application/javascript" src="https://code.angularjs.org/1.4.8/angular-route.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.5.0/js/bootstrap-datepicker.js" charset="UTF-8"></script>
+    
+    
+    
+    <script type="application/javascript" src="js/app.js"></script>
+    <script type="application/javascript" src="js/controller/mainCtrl.js"></script>    
+    <script type="application/javascript" src="js/controller/reserveCtrl.js"></script>    
+    
+
+</body>
+</html>

@@ -1,0 +1,138 @@
+/* line 4, ../sass/card.scss */
+.info div:nth-child(odd) {
+  margin: 2%;
+  padding: 2%;
+  border: 1px solid #B8B8B8;
+  text-align: left;
+  box-shadow: 5px 5px 30px grey;
+  border-left: 20px solid #905050;
+}
+/* line 7, ../sass/mixins/app-mixins.scss */
+.info div:nth-child(odd) h3 {
+  padding: 0px;
+  color: #900000;
+}
+/* line 11, ../sass/mixins/app-mixins.scss */
+.info div:nth-child(odd) p {
+  display: inline;
+}
+/* line 14, ../sass/mixins/app-mixins.scss */
+.info div:nth-child(odd) img {
+  float: right;
+  display: inline;
+  width: 20%;
+  height: 80%;
+  border-radius: 300px;
+}
+/* line 8, ../sass/card.scss */
+.info div:nth-child(even) {
+  margin: 2%;
+  padding: 2%;
+  border: 1px solid #B8B8B8;
+  text-align: right;
+  box-shadow: 5px 5px 30px grey;
+  border-right: 20px solid #9018A0;
+}
+/* line 7, ../sass/mixins/app-mixins.scss */
+.info div:nth-child(even) h3 {
+  padding: 0px;
+  color: #900000;
+}
+/* line 11, ../sass/mixins/app-mixins.scss */
+.info div:nth-child(even) p {
+  display: inline;
+}
+/* line 14, ../sass/mixins/app-mixins.scss */
+.info div:nth-child(even) img {
+  float: left;
+  display: inline;
+  width: 20%;
+  height: 80%;
+  border-radius: 300px;
+}
+
+/* line 14, ../sass/card.scss */
+.card {
+  margin: 2%;
+  padding: 2%;
+  border: 1px solid #B8B8B8;
+  text-align: left;
+  box-shadow: 5px 5px 30px grey;
+}
+/* line 7, ../sass/mixins/app-mixins.scss */
+.card h3 {
+  padding: 0px;
+  color: #900000;
+}
+/* line 11, ../sass/mixins/app-mixins.scss */
+.card p {
+  display: inline;
+}
+/* line 14, ../sass/mixins/app-mixins.scss */
+.card img {
+  float: left;
+  display: inline;
+  width: 20%;
+  height: 80%;
+  border-radius: 300px;
+}
+/* line 16, ../sass/card.scss */
+.card span {
+  padding-left: 2%;
+  display: block;
+}
+
+@media screen and (max-width: 770px) {
+  /* line 25, ../sass/card.scss */
+  .info div:nth-child(odd) {
+    margin: 2%;
+    padding: 2%;
+    border: 1px solid #B8B8B8;
+    text-align: justified;
+    box-shadow: 5px 5px 30px grey;
+    border-left: 20px solid #905050;
+  }
+  /* line 7, ../sass/mixins/app-mixins.scss */
+  .info div:nth-child(odd) h3 {
+    padding: 0px;
+    color: #900000;
+  }
+  /* line 11, ../sass/mixins/app-mixins.scss */
+  .info div:nth-child(odd) p {
+    display: inline;
+  }
+  /* line 14, ../sass/mixins/app-mixins.scss */
+  .info div:nth-child(odd) img {
+    float: right;
+    display: none;
+    width: 20%;
+    height: 80%;
+    border-radius: 300px;
+  }
+  /* line 29, ../sass/card.scss */
+  .info div:nth-child(even) {
+    margin: 2%;
+    padding: 2%;
+    border: 1px solid #B8B8B8;
+    text-align: justified;
+    box-shadow: 5px 5px 30px grey;
+    border-right: 20px solid #9018A0;
+  }
+  /* line 7, ../sass/mixins/app-mixins.scss */
+  .info div:nth-child(even) h3 {
+    padding: 0px;
+    color: #900000;
+  }
+  /* line 11, ../sass/mixins/app-mixins.scss */
+  .info div:nth-child(even) p {
+    display: inline;
+  }
+  /* line 14, ../sass/mixins/app-mixins.scss */
+  .info div:nth-child(even) img {
+    float: left;
+    display: none;
+    width: 20%;
+    height: 80%;
+    border-radius: 300px;
+  }
+}

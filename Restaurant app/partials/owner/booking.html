@@ -1,0 +1,26 @@
+<div class="container">
+    <h1>Bookings</h1>
+    <hr>
+    <div>
+        <div class="card" ng-repeat="booking in bookingList">
+            <h3>
+                {{booking.confirmNum}}
+                <a href="#/" class="btn btn-default del-btn" >Delete</a>
+            </h3>
+            <span>
+                Name : {{booking.name}}
+            </span>
+            
+            <span>
+                Time : {{booking.time}}
+            </span>
+            <span>
+                Table-Number : {{booking.tableNumber}}
+            </span>
+            <span>
+                Person-Count : {{booking.headCount}}
+            </span>
+        </div>
+        
+    </div>
+</div>

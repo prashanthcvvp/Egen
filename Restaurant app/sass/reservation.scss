@@ -13,8 +13,9 @@
     border-radius: 30px;
 
     &:hover{
-        color: green;
-        opacity: 0.8;
+        color: white;
+        text-shadow: none;
+        background: green;
     }
 }
 
@@ -62,6 +63,12 @@
         margin: 0%;
     }
     .btn-submit{
+        display: block;
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 5%;
+    }
+    .btn-cancel{
         display: block;
         width: 100%;
         margin-left: 0%;

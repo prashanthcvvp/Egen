@@ -17,16 +17,17 @@
 }
 /* line 15, ../sass/reservation.scss */
 .btn-reserve:hover {
-  color: green;
-  opacity: 0.8;
+  color: white;
+  text-shadow: none;
+  background: green;
 }
 
-/* line 22, ../sass/reservation.scss */
+/* line 23, ../sass/reservation.scss */
 .new-reservation {
   margin: 5%;
 }
 
-/* line 26, ../sass/reservation.scss */
+/* line 27, ../sass/reservation.scss */
 .btn-submit {
   font-size: 18px;
   width: 40%;
@@ -35,7 +36,7 @@
   text-shadow: none;
   color: white;
 }
-/* line 34, ../sass/reservation.scss */
+/* line 35, ../sass/reservation.scss */
 .btn-submit:hover {
   background: #006600;
   text-shadow: none;
@@ -43,7 +44,7 @@
   opacity: 0.8;
 }
 
-/* line 42, ../sass/reservation.scss */
+/* line 43, ../sass/reservation.scss */
 .btn-cancel {
   font-size: 18px;
   width: 40%;
@@ -52,7 +53,7 @@
   text-shadow: none;
   color: white;
 }
-/* line 50, ../sass/reservation.scss */
+/* line 51, ../sass/reservation.scss */
 .btn-cancel:hover {
   background: #990000;
   text-shadow: none;
@@ -61,18 +62,26 @@
 }
 
 @media screen and (max-width: 770px) {
-  /* line 58, ../sass/reservation.scss */
+  /* line 59, ../sass/reservation.scss */
   .btn-reserve {
     display: block;
   }
 
-  /* line 61, ../sass/reservation.scss */
+  /* line 62, ../sass/reservation.scss */
   .new-reservation {
     margin: 0%;
   }
 
-  /* line 64, ../sass/reservation.scss */
+  /* line 65, ../sass/reservation.scss */
   .btn-submit {
+    display: block;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 5%;
+  }
+
+  /* line 71, ../sass/reservation.scss */
+  .btn-cancel {
     display: block;
     width: 100%;
     margin-left: 0%;

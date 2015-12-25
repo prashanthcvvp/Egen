@@ -25,6 +25,28 @@
 }
 
 
+.del-btn{
+    float: right;
+    background: $theme-color-nav;
+    color: white;
+    text-shadow: none;
+}
+
+.panel-footer{
+    text-align: center;
+    font-size: 12px;
+    padding:20px;
+}
+
+.container{
+    padding:8%;
+    border: 2px solid $line-color;
+    box-shadow: 5px 5px 30px $line-color;
+}
+.footer-container{
+    padding-top:10px;
+}
+
 
 @media screen and (max-width:$mobile-max-screen-width){
     .hotel-carousel,.desktop-view-nav{
@@ -41,13 +63,22 @@
         display: block;
     }
     .brand-name-mobile{
-        width: 90%;
+        width: 80%;
         color: white;
         font-size: 18px;
         text-align: center;
     }
-    .mobile-btn{
+    .nav-btn{
         color: white;
+        &:hover{
+            color: white;
+            opacity: 0.8;
+            text-decoration: none;
+        }
+        &:visited,&:link{
+            color: white;
+            text-decoration: none;
+        }
     }
 }
 

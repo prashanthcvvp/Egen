@@ -1,0 +1,22 @@
+@mixin create-card($border-color,$text-align,$img-align,$img-display){
+    margin: 2%;
+    padding: 2%;
+    border: 1px solid $border-color;
+    text-align: $text-align;
+    box-shadow: 5px 5px 30px grey;
+    h3{
+        padding: 0px;
+        color: #900000;
+    }
+    p{
+        display: inline;
+    }
+    img{
+        float: $img-align;
+        display: $img-display;
+        width: 20%;
+        height: 80%;
+        border-radius: 300px;    
+    }
+    
+}

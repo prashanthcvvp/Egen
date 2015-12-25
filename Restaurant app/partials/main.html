@@ -42,3 +42,11 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
+
+<div class="info">
+    <div ng-repeat="info in hotelInfo">
+        <img ng-src="{{info.img_src}}"/>
+        <h3>{{info.title}}</h3>
+        <p>{{info.content}}</p>
+    </div>
+</div>

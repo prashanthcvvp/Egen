@@ -1,0 +1,34 @@
+@import "variables/app-variables";
+@import "mixins/app-mixins";
+.info{
+    div:nth-child(odd){
+       @include create-card(#B8B8B8,left,right,inline);
+        border-left: 20px solid $block-color-card-odd;
+    }
+    div:nth-child(even){
+       @include create-card(#B8B8B8,right,left,inline);
+       border-right: 20px solid $block-color-card-even;
+    }
+}
+
+.card{
+       @include create-card(#B8B8B8,left,left,inline);
+    span{
+        padding-left: 2%;   
+        display: block;
+    }
+}
+
+
+@media screen and (max-width:$mobile-max-screen-width){
+    .info{
+        div:nth-child(odd){
+           @include create-card(#B8B8B8,justified,right,none);
+            border-left: 20px solid $block-color-card-odd;
+        }
+        div:nth-child(even){
+           @include create-card(#B8B8B8,justified,left,none);
+           border-right: 20px solid $block-color-card-even;
+        }
+    }   
+}

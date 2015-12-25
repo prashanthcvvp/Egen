@@ -26,34 +26,72 @@
   display: none;
 }
 
+/* line 28, ../sass/app-style.scss */
+.del-btn {
+  float: right;
+  background: #990000;
+  color: white;
+  text-shadow: none;
+}
+
+/* line 35, ../sass/app-style.scss */
+.panel-footer {
+  text-align: center;
+  font-size: 12px;
+  padding: 20px;
+}
+
+/* line 41, ../sass/app-style.scss */
+.container {
+  padding: 8%;
+  border: 2px solid #B8B8B8;
+  box-shadow: 5px 5px 30px #B8B8B8;
+}
+
+/* line 46, ../sass/app-style.scss */
+.footer-container {
+  padding-top: 10px;
+}
+
 @media screen and (max-width: 770px) {
-  /* line 30, ../sass/app-style.scss */
+  /* line 52, ../sass/app-style.scss */
   .hotel-carousel, .desktop-view-nav {
     display: none;
   }
 
-  /* line 34, ../sass/app-style.scss */
+  /* line 56, ../sass/app-style.scss */
   .mobile-view-nav {
     background: #990000;
     display: block;
     padding: 20px;
   }
 
-  /* line 40, ../sass/app-style.scss */
+  /* line 62, ../sass/app-style.scss */
   .mobile-view-nav-options {
     display: block;
   }
 
-  /* line 43, ../sass/app-style.scss */
+  /* line 65, ../sass/app-style.scss */
   .brand-name-mobile {
-    width: 90%;
+    width: 80%;
     color: white;
     font-size: 18px;
     text-align: center;
   }
 
-  /* line 49, ../sass/app-style.scss */
-  .mobile-btn {
+  /* line 71, ../sass/app-style.scss */
+  .nav-btn {
     color: white;
+  }
+  /* line 73, ../sass/app-style.scss */
+  .nav-btn:hover {
+    color: white;
+    opacity: 0.8;
+    text-decoration: none;
+  }
+  /* line 78, ../sass/app-style.scss */
+  .nav-btn:visited, .nav-btn:link {
+    color: white;
+    text-decoration: none;
   }
 }

@@ -1,1 +1,44 @@
-<h1>Edit Reservation</h1>
+<div class="container">
+    <h1>Edit Reservation</h1>
+    <hr>
+    <div class="row">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-6 col-md-12 col-sm-12">
+            <form>
+                <div class="form-group">
+                    <label> 
+                        Confirmation #:
+                    </label>
+                    <input type="text" class="form-control"/>
+                </div>
+                
+                <div class="input-group">
+                    <span class="input-group-addon">
+                        <input type="radio" name="option" value="{{options.cancel}}" >
+                    </span>
+                    <label class="form-control" aria-label="...">{{options.cancel}}</label>
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">
+                        <input type="radio" name="option" value="{{options.edit}}" >
+                    </span>
+                    <label class="form-control" aria-label="...">{{options.edit}}</label>
+                </div>
+                <br>
+                
+                
+                <a href="#/form-reservation" class="btn btn-group btn-default btn-submit">
+                    <i class="fa fa-arrow-circle-right"></i>
+                    <span>Submit</span>
+                </a>
+                
+                
+                <a  href="#/reserve" class="btn btn-group btn-default btn-cancel">
+                    <i class="fa fa-times"></i>
+                    <span>Cancel</span>
+                </a>
+            </form>
+        </div>
+        <div class="col-lg-3"></div>
+    </div>
+</div>

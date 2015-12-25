@@ -1,0 +1,29 @@
+<div class="container">
+    <h1>Owner Login</h1>
+    <hr>
+        <div class="row new-reservation">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-8 col-md-8 col-sm-12">
+            <form role="form">
+                <div class="alert alert-danger">
+                    Show if Invalid User
+                </div>
+                <div class="form-group">
+                    <label for="first-name">Login</label>
+                    <input type="text" class="form-control" id="login" ng-model="validateUser.user"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="first-name">Password</label>
+                    <input type="password" class="form-control" id="password" ng-model="validateUser.password"/>
+                </div>
+                
+                <a ng-click="validate(validateUser)" class="btn btn-group btn-default btn-submit">
+                    <i class="fa fa-arrow-circle-right"></i>
+                    <span>Login</span>
+                </a>   
+            </form>
+        </div>
+        <div class="col-lg-3"></div>
+    </div>
+</div>

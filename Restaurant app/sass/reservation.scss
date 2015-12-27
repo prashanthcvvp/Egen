@@ -1,6 +1,6 @@
 @import "variables/app-variables";
 .reservation{
-    background-image: url('../img/reservation/reservation_background.jpeg');
+   background-image: url('../img/reservation/reservation_background.jpeg');
     background-position: 10% 30%;
 }
 .reservation-option{
@@ -18,12 +18,9 @@
         background: green;
     }
 }
-
-
 .new-reservation{
     margin: 5%;
 }
-
 .btn-submit{
     font-size: 18px;
     width: 40%;
@@ -56,6 +53,10 @@
     }
 }
 @media screen and (max-width:$mobile-max-screen-width){
+    .reservation{
+        height: 100%;
+        background-image:none;
+    }
     .btn-reserve{
         display: block;
     }

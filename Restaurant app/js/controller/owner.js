@@ -16,4 +16,9 @@ app.controller('ownerCtrl',['$scope','$location',function($scope,$location){
 
 app.controller('bookingCtrl',['$scope','$routeParams','bookingService',function($scope,$routeParams,bookingService){
     $scope.bookingList= bookingService.bookingsList;
+    
+    
+    $scope.delete=function(index){
+        $scope.bookingList.splice(index,1);
+    }
 }]);

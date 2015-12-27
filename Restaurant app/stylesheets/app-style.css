@@ -1,32 +1,37 @@
-/* line 4, ../sass/app-style.scss */
-.welcome-carousel {
-  align-content: center;
-  width: 100%;
-  height: 520px;
+/* line 3, ../sass/app-style.scss */
+body {
+  background: #DCDA9C;
 }
 
-/* line 9, ../sass/app-style.scss */
+/* line 7, ../sass/app-style.scss */
+.welcome-carousel {
+  align-content: center;
+  height: 500px;
+  width: 100%;
+}
+
+/* line 12, ../sass/app-style.scss */
 .hotel-carousel {
   display: block;
 }
 
-/* line 14, ../sass/app-style.scss */
+/* line 17, ../sass/app-style.scss */
 .navbar-hotel {
   background: #990000;
   color: white;
 }
 
-/* line 19, ../sass/app-style.scss */
+/* line 22, ../sass/app-style.scss */
 .nav-link {
   color: white;
 }
 
-/* line 23, ../sass/app-style.scss */
+/* line 26, ../sass/app-style.scss */
 .mobile-view-nav-options, .mobile-view-nav {
   display: none;
 }
 
-/* line 28, ../sass/app-style.scss */
+/* line 31, ../sass/app-style.scss */
 .del-btn {
   float: right;
   background: #990000;
@@ -34,44 +39,77 @@
   text-shadow: none;
 }
 
-/* line 35, ../sass/app-style.scss */
+/* line 38, ../sass/app-style.scss */
 .panel-footer {
   text-align: center;
   font-size: 12px;
   padding: 20px;
 }
+/* line 43, ../sass/app-style.scss */
+.panel-footer .social-connect {
+  float: right;
+}
+/* line 46, ../sass/app-style.scss */
+.panel-footer a {
+  color: white;
+}
+/* line 48, ../sass/app-style.scss */
+.panel-footer a:visited {
+  color: white;
+}
+/* line 51, ../sass/app-style.scss */
+.panel-footer a:hover {
+  color: #DCDA9C;
+}
 
-/* line 41, ../sass/app-style.scss */
+/* line 57, ../sass/app-style.scss */
 .container {
   padding: 8%;
   border: 2px solid #B8B8B8;
   box-shadow: 5px 5px 30px #B8B8B8;
 }
 
-/* line 46, ../sass/app-style.scss */
+/* line 62, ../sass/app-style.scss */
 .footer-container {
   padding-top: 10px;
 }
 
 @media screen and (max-width: 770px) {
-  /* line 52, ../sass/app-style.scss */
+  /* line 68, ../sass/app-style.scss */
   .hotel-carousel, .desktop-view-nav {
     display: none;
   }
 
-  /* line 56, ../sass/app-style.scss */
+  /* line 72, ../sass/app-style.scss */
   .mobile-view-nav {
     background: #990000;
     display: block;
     padding: 20px;
   }
 
-  /* line 62, ../sass/app-style.scss */
+  /* line 78, ../sass/app-style.scss */
   .mobile-view-nav-options {
     display: block;
+    margin-bottom: 20%;
+  }
+  /* line 81, ../sass/app-style.scss */
+  .mobile-view-nav-options .btn {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 2%;
+    color: white;
+    font-size: 80%;
+    text-shadow: none;
+    background: #AA0000;
+    border: 5px solid #B8B8B8;
+  }
+  /* line 91, ../sass/app-style.scss */
+  .mobile-view-nav-options .btn:hover {
+    background: #880000;
+    color: white;
   }
 
-  /* line 65, ../sass/app-style.scss */
+  /* line 97, ../sass/app-style.scss */
   .brand-name-mobile {
     width: 80%;
     color: white;
@@ -79,17 +117,17 @@
     text-align: center;
   }
 
-  /* line 71, ../sass/app-style.scss */
+  /* line 103, ../sass/app-style.scss */
   .nav-btn {
     color: white;
   }
-  /* line 73, ../sass/app-style.scss */
+  /* line 105, ../sass/app-style.scss */
   .nav-btn:hover {
     color: white;
     opacity: 0.8;
     text-decoration: none;
   }
-  /* line 78, ../sass/app-style.scss */
+  /* line 110, ../sass/app-style.scss */
   .nav-btn:visited, .nav-btn:link {
     color: white;
     text-decoration: none;

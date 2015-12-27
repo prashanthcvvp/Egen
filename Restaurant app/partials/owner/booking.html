@@ -5,7 +5,10 @@
         <div class="card" ng-repeat="booking in bookingList">
             <h3>
                 {{booking.confirmNum}}
-                <a href="#/" class="btn btn-default del-btn" >Delete</a>
+                <a ng-click="delete($index)" class="btn btn-default del-btn" >
+                    <i class="fa fa-trash fa-1x"></i>
+                    Delete
+                </a>
             </h3>
             <span>
                 Name : {{booking.name}}
